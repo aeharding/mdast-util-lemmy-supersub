@@ -1,6 +1,6 @@
 {
   "name": "mdast-util-lemmy-supersub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mdast extension to parse and serialize lemmy supersub",
   "license": "AGPL-3.0-only",
   "keywords": [
