@@ -31,7 +31,7 @@
     "devlop": "^1.0.0",
     "mdast-util-from-markdown": "^2.0.0",
     "mdast-util-to-markdown": "^2.0.0",
-    "micromark-extension-lemmy-supersub": "link:../micromark-extension-lemmy-supersub",
+    "micromark-extension-lemmy-supersub": "^1.0.0",
     "parse-entities": "^4.0.0",
     "stringify-entities": "^4.0.0"
   },

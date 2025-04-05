@@ -15,7 +15,6 @@ test('core', async function (t) {
 
 test('supersubFromMarkdown()', async function (t) {
   await t.test('should support sub', async function () {
-    // @ts-expect-error
     const tree = fromMarkdown('hello ~world~ text', {
       extensions: [supersub],
       mdastExtensions: [supersubFromMarkdown()]
@@ -51,7 +50,6 @@ test('supersubFromMarkdown()', async function (t) {
   })
 
   await t.test('should support sup', async function () {
-    // @ts-expect-error
     const tree = fromMarkdown('hello ^world^ text', {
       extensions: [supersub],
       mdastExtensions: [supersubFromMarkdown()]
